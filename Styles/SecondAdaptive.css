@@ -1,0 +1,1270 @@
+@media only screen and (width < 700px) {
+
+
+    .top {
+        height: 1%;
+        background-color: white;
+    }
+
+    .Alexis {
+        width: 10%;
+        height: 10%;
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 18px;
+        background-color: white;
+    }
+    .ButtonUp
+    {
+        height: 24px;
+        width: 24px;
+        margin-left: 5%;
+        margin-top: 1%;
+        background-image: url("../Pictures/ButtonDown.png");
+        position: fixed;
+    }
+    
+    .ButtonDown
+    {
+        height: 24px;
+        width: 24px;
+        margin-left: 5%;
+        margin-top: 147%;
+        rotate: 180deg;
+        background-image: url("../Pictures/ButtonDown.png");
+        position: fixed;
+    }
+    
+    .BurgerMenu
+    {
+        height: 4%;
+        width: 4%;
+        opacity: 1;
+        margin-left: 90%;
+        margin-top: 2%
+    }
+
+    .MyList:hover, .top
+    {
+        animation: List 1s forwards;
+    }
+    @keyframes List {
+        to
+        {
+            opacity: 1;
+        }
+    }
+    .MyList
+    {
+        margin-left: -550%;
+        margin-top: -20%;
+    }
+
+    .Text {
+        height: 3%;
+        width: 60%;
+        margin-left: 40%;
+        margin-top: 2.1%;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .ALetter {
+        color: red;
+    }
+
+    .MainPicture {
+        height: 70%;
+    }
+
+    .Back {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 80%;
+    }
+
+    .EnteredText {
+        height: 30%;
+        width: 50%;
+        margin-left: 32%;
+        margin-top: -105%;
+        font-size: 20px;
+        opacity: 99%;
+        color: white;
+    }
+
+    .OurWorks {
+        height: 10%;
+        width: 20%;
+        margin-left: 43%;
+        margin-top: -10%;
+        opacity: 99%;
+        background-color: orangered;
+        border-radius: 30px;
+    }
+
+    .OurWorksButton {
+        color: white;
+        font-size: 12px;
+        margin-left: 0.8%;
+        margin-top: 4%;
+        position: absolute;
+    }
+
+    .OurWorksButton:hover {
+        animation: ourworks 1s forwards;
+    }
+
+    @keyframes ourworks {
+        to {
+            font-size: 14px;
+            margin-left: 0%;
+        }
+    }
+
+    .Dollar {
+        height: 32px;
+        width: 32px;
+        margin-left: 18%;
+        margin-top: 20%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .DollarText {
+        height: 32px;
+        width: 160px;
+        margin-left: 8.5%;
+        margin-top: 30%;
+        position: absolute;
+        color: green;
+        font-size: 12px;
+        opacity: 99%;
+    }
+
+    .Clock {
+        height: 32px;
+        width: 32px;
+        margin-left: 48.5%;
+        margin-top: 19%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .ClockText {
+        height: 32px;
+        width: 160px;
+        margin-left: 42%;
+        margin-top: 30%;
+        position: absolute;
+        color: purple;
+        font-size: 12px;
+        opacity: 99%;
+    }
+
+    .Galka {
+        height: 32px;
+        width: 32px;
+        margin-left: 80%;
+        margin-top: 19%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .GalkaText {
+        height: 32px;
+        width: 200px;
+        margin-left: 66%;
+        margin-top: 30%;
+        position: absolute;
+        color: orange;
+        font-size: 12px;
+        opacity: 99%;
+    }
+
+    .OurFocus {
+        height: 90%;
+        background-color: whitesmoke;
+    }
+
+    .OurFocusText {
+        height: 20%;
+        width: 40%;
+        font-size: 30px;
+        margin-top: 2%;
+        margin-left: 40%;
+        position: absolute;
+    }
+
+    .OurFocusLowerText {
+        height: 20%;
+        width: 60%;
+        font-size: 12px;
+        margin-top: 15%;
+        margin-left: 25%;
+        position: absolute;
+    }
+
+    .WebDesign {
+        height: 30%;
+        width: 40%;
+        position: absolute;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+
+    .WebDesignLogo {
+        height: 48px;
+        width: 48px;
+        margin-left: 30%;
+        margin-top: 5%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .WebDesignText {
+        height: 20%;
+        width: 60%;
+        font-size: 18px;
+        margin-top: 40%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    .WebDesignLowerText {
+        height: 20%;
+        width: 75%;
+        font-size: 14px;
+        margin-top: 60%;
+        margin-left: 13%;
+        position: absolute;
+    }
+
+
+    .UXDesign {
+        height: 30%;
+        width: 40%;
+        position: absolute;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        margin-top: 20%;
+        margin-left: 55%;
+    }
+
+    .UXDesignLogo {
+        height: 46px;
+        width: 48px;
+        margin-left: 30%;
+        margin-top: 5%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .UXDesignText {
+        height: 20%;
+        width: 60%;
+        font-size: 18px;
+        margin-top: 40%;
+        margin-left: 22%;
+        position: absolute;
+    }
+
+    .UXDesignLowerText {
+        height: 20%;
+        width: 75%;
+        font-size: 14px;
+        margin-top: 60%;
+        margin-left: 13%;
+        position: absolute;
+    }
+
+    .Photography {
+        height: 30%;
+        width: 40%;
+        position: absolute;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        margin-top: 80%;
+        margin-left: 5%;
+    }
+
+    .PhotographyLogo {
+        height: 48px;
+        width: 48px;
+        margin-left: 35%;
+        margin-top: 5%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .PhotographyText {
+        height: 20%;
+        width: 60%;
+        font-size: 18px;
+        margin-top: 40%;
+        margin-left: 22%;
+        position: absolute;
+    }
+
+    .PhotographyLowerText {
+        height: 20%;
+        width: 75%;
+        font-size: 14px;
+        margin-top: 60%;
+        margin-left: 13%;
+        position: absolute;
+    }
+
+    .AppDevelopment {
+        height: 30%;
+        width: 40%;
+        position: absolute;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        margin-top: 80%;
+        margin-left: 55%
+    }
+
+    .AppDevelopmentLogo {
+        height: 48px;
+        width: 48px;
+        margin-left: 30%;
+        margin-top: 5%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .AppDevelopmentText {
+        height: 20%;
+        width: 80%;
+        font-size: 18px;
+        margin-top: 40%;
+        margin-left: 12%;
+        position: absolute;
+    }
+
+    .AppDevelopmentLowerText {
+        height: 20%;
+        width: 75%;
+        font-size: 14px;
+        margin-top: 60%;
+        margin-left: 12%;
+        position: absolute;
+    }
+
+    .OrangeLine {
+        height: 1%;
+        background-color: orange;
+        margin-top: 114%;
+        margin-left: -4%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .PurpleLine {
+        height: 1%;
+        background-color: purple;
+        margin-top: 114%;
+        margin-left: -4%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .GreenLine {
+        height: 1%;
+        background-color: green;
+        margin-top: 114%;
+        margin-left: -4%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .RedLine {
+        height: 1%;
+        background-color: orangered;
+        margin-top: 114%;
+        margin-left: -4%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .Line {
+        height: 0.5%;
+        background-color: yellow;
+    }
+
+    .AboutUs {
+        height: 150%;
+        background-color: white;
+    }
+
+    .AboutUsText {
+        font-size: 18px;
+        color: black;
+        margin-left: 43%;
+        margin-top: 3%;
+        position: absolute;
+    }
+
+    .AboutUsBigText {
+        font-size: 34px;
+        color: black;
+        margin-left: 25%;
+        margin-top: 10%;
+        position: absolute;
+    }
+
+    .Inline {
+        width: 45%;
+        height: 0.5%;
+        margin-left: 30%;
+        margin-top: 35%;
+        background-color: orangered;
+        position: absolute;
+    }
+
+    .AboutUsLowerText {
+        font-size: 12px;
+        color: gray;
+        margin-top: 20%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    .ZeroBlockAboutUs {
+        height: 20%;
+        width: 17%;
+        margin-top: 17.5%;
+        margin-left: 19.5%;
+        position: absolute;
+    }
+
+    .ZeroBlockColor {
+        height: 100%;
+        width: 100%;
+        margin-left: -5%;
+        margin-top: -2%;
+        background: linear-gradient(orange, yellow);
+        opacity: 0.6;
+        position: absolute;
+    }
+
+    .ZeroBlockBack {
+        height: 100%;
+        width: 100%;
+        margin-left: -5%;
+        margin-top: -2%;
+        position: absolute;
+    }
+
+    .ZeroBlockSecondBack {
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        position: absolute;
+    }
+
+    .FirstBlockLogo {
+        height: 48px;
+        width: 48px;
+        margin-left: 36%;
+        margin-top: 5%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .FirstBlockText {
+        font-size: 14px;
+        color: white;
+        width: 50%;
+        height: 20%;
+        margin-left: 23%;
+        margin-top: 35%;
+        position: absolute;
+    }
+
+    .FirstBlockAboutUs {
+        height: 30%;
+        width: 50%;
+        margin-top: 40%;
+        margin-left: 30%;
+        background-color: aqua;
+        position: absolute;
+    }
+
+    .HighLightBlock {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .HighLightBlock:Hover {
+        animation: identifier 1s forwards;
+    }
+
+    @keyframes identifier {
+        to {
+            opacity: 1;
+        }
+    }
+
+    .SecondBlockAboutUs {
+        height: 30%;
+        width: 50%;
+        margin-top: 100%;
+        margin-left: 30%;
+        position: absolute;
+    }
+
+    .ThirdBlockAboutUs {
+        height: 30%;
+        width: 50%;
+        margin-top: 160%;
+        margin-left: 30%;
+        position: absolute;
+    }
+
+    .Explore {
+        height: 50%;
+    }
+
+    .ExploreText {
+        height: 25%;
+        width: 80%;
+        margin-top: -70%;
+        margin-left: 25%;
+        color: white;
+        font-size: 24px;
+        position: absolute;
+    }
+
+    .ExploreLogo {
+        height: 48px;
+        width: 48px;
+        margin-left: 46%;
+        margin-top: -40%;
+        position: absolute;
+        opacity: 99%;
+    }
+
+    .ExploreSmallText {
+        height: 25%;
+        width: 40%;
+        margin-top: -8%;
+        margin-left: 40%;
+        color: white;
+        font-size: 12px;
+        position: absolute;
+    }
+
+    .Portfolio {
+        height: 230%;
+        background-color: white;
+    }
+
+    .PortfolioText {
+        height: 30%;
+        width: 70%;
+        margin-left: 36%;
+        margin-top: 5%;
+        font-size: 40px;
+        opacity: 99%;
+        color: black;
+        position: absolute;
+    }
+
+    .OurPortfolioLowerText {
+        height: 20%;
+        width: 80%;
+        font-size: 14px;
+        margin-top: 20%;
+        margin-left: 18%;
+        color: gray;
+        position: absolute;
+    }
+
+    .PortfolioBlock {
+        height: 75%;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 40%;
+        position: absolute;
+    }
+
+    .FirstPortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 0%;
+        position: absolute;
+    }
+
+    .SecondPortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 70%;
+        position: absolute;
+    }
+
+    .ThirdPortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 140%;
+        position: absolute;
+    }
+
+    .FirstMiddlePortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 210%;
+        position: absolute;
+    }
+
+    .SecondMiddlePortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 280%;
+        position: absolute;
+    }
+
+    .ThirdMiddlePortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 350%;
+        position: absolute;
+    }
+
+    .FirstLowerPortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 420%;
+        position: absolute;
+    }
+
+    .SecondLowerPortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 490%;
+        position: absolute;
+    }
+
+    .ThirdLowerPortfolioBlock {
+        height: 150px;
+        width: 250px;
+        margin-left: 0%;
+        margin-top: 560%;
+        position: absolute;
+    }
+
+    .OurTeam {
+        height: 160%;
+        background-color: whitesmoke;
+    }
+
+    .OurTeamText {
+        height: 30%;
+        width: 70%;
+        margin-left: 35%;
+        margin-top: 8%;
+        font-size: 40px;
+        opacity: 99%;
+        color: black;
+        position: absolute;
+    }
+
+    .OurTeamLowerText {
+        height: 20%;
+        width: 70%;
+        font-size: 14px;
+        margin-top: 20%;
+        margin-left: 18%;
+        color: gray;
+        position: absolute;
+    }
+
+    .OurTeamBlocks {
+        height: 50%;
+        width: 90%;
+        background-color: transparent;
+        margin-left: 5%;
+        margin-top: 30%;
+        position: absolute;
+    }
+
+    .FirstTeammateBlock {
+        height: 75%;
+        width: 40%;
+        background-color: white;
+        margin-top: 1%;
+        margin-left: 5%;
+        position: absolute;
+    }
+
+    .FirstTeammatePhoto {
+        margin-top: 1%;
+        margin-left: 1%;
+        height: 70%;
+        width: 98%;
+        position: absolute;
+    }
+
+    .FirstTeammateText {
+        height: 15%;
+        width: 80%;
+        margin-top: 130%;
+        margin-left: 20%;
+        font-size: 18px;
+        color: orangered;
+    }
+
+    .FirstTeammateLowerText {
+        height: 15%;
+        width: 80%;
+        margin-top: -6%;
+        margin-left: 30%;
+        font-size: 12px;
+        color: gray;
+    }
+
+    .OrangeRedLineTeammate {
+        height: 1%;
+        background-color: orangered;
+        margin-top: 13%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .SecondTeammateBlock {
+        height: 75%;
+        width: 40%;
+        background-color: white;
+        margin-top: 80%;
+        margin-left: 5%;
+        position: absolute;
+    }
+
+    .SecondTeammatePhoto {
+        margin-top: 1%;
+        margin-left: 1%;
+        height: 70%;
+        width: 98%;
+        position: absolute;
+    }
+
+    .SecondTeammateText {
+        height: 15%;
+        width: 80%;
+        margin-top: 130%;
+        margin-left: 25%;
+        font-size: 18px;
+        color: green;
+    }
+
+    .GreenLineTeammate {
+        height: 1%;
+        background-color: green;
+        margin-top: 13%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .ThirdTeammateBlock {
+        height: 75%;
+        width: 40%;
+        background-color: white;
+        margin-top: 1%;
+        margin-left: 50%;
+        position: absolute;
+    }
+
+    .ThirdTeammatePhoto {
+        margin-top: 1%;
+        margin-left: 1%;
+        height: 70%;
+        width: 98%;
+        position: absolute;
+    }
+
+    .ThirdTeammateText {
+        height: 15%;
+        width: 80%;
+        margin-top: 130%;
+        margin-left: 24%;
+        font-size: 18px;
+        color: purple;
+    }
+
+    .PurpleLineTeammate {
+        height: 1%;
+        background-color: purple;
+        margin-top: 13%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .FourthTeammateBlock {
+        height: 75%;
+        width: 40%;
+        background-color: white;
+        margin-top: 80%;
+        margin-left: 50%;
+        position: absolute;
+    }
+
+    .FourthTeammatePhoto {
+        margin-top: 1%;
+        margin-left: 1%;
+        height: 70%;
+        width: 98%;
+        position: absolute;
+    }
+
+    .FourthTeammateText {
+        height: 15%;
+        width: 80%;
+        margin-top: 130%;
+        margin-left: 20%;
+        font-size: 18px;
+        color: orange;
+    }
+
+    .OrangeLineTeammate {
+        height: 1%;
+        background-color: orange;
+        margin-top: 13%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .Bot {
+        height: 20%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .BotGroup {
+        height: 100%;
+        width: 100%;
+        margin-top: -50%;
+        margin-left: 5%;
+        position: absolute;
+    }
+
+    .GraphIcon {
+        height: 48px;
+        width: 48px;
+        margin-top: 20%;
+        margin-left: 15%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .GraphText {
+        height: 5%;
+        width: 30%;
+        margin-left: 14.7%;
+        margin-top: 32%;
+        opacity: 0.8;
+        color: white;
+        position: absolute;
+    }
+
+    .RedDot {
+        height: 24px;
+        width: 24px;
+        margin-left: 17.5%;
+        margin-top: 40%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .RedText {
+        height: 5%;
+        width: 30%;
+        margin-left: 11%;
+        margin-top: 36%;
+        opacity: 0.8;
+        font-size: 10px;
+        color: whitesmoke;
+        position: absolute;
+    }
+
+    .GreenGroupIcon {
+        height: 48px;
+        width: 48px;
+        margin-top: 20%;
+        margin-left: 32%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .GreenDot {
+        height: 24px;
+        width: 24px;
+        margin-left: 35.5%;
+        margin-top: 39.5%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .GreenText {
+        height: 5%;
+        width: 30%;
+        margin-left: 31%;
+        margin-top: 36%;
+        opacity: 0.8;
+        font-size: 10px;
+        color: whitesmoke;
+        position: absolute;
+    }
+
+    .GroupText {
+        height: 5%;
+        width: 30%;
+        margin-left: 33.3%;
+        margin-top: 32%;
+        opacity: 0.8;
+        color: whitesmoke;
+        position: absolute;
+    }
+
+    .PurpleHeartIcon {
+        height: 48px;
+        width: 48px;
+        margin-top: 20%;
+        margin-left: 48%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .PurpleDot {
+        height: 24px;
+        width: 24px;
+        margin-left: 50.5%;
+        margin-top: 39.3%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .PurpleText {
+        height: 5%;
+        width: 30%;
+        margin-left: 46.5%;
+        margin-top: 36%;
+        opacity: 0.8;
+        font-size: 10px;
+        color: whitesmoke;
+        position: absolute;
+    }
+
+    .HeartText {
+        height: 20%;
+        width: 30%;
+        margin-left: 48.3%;
+        margin-top: 32%;
+        opacity: 0.8;
+        color: whitesmoke;
+        position: absolute;
+    }
+
+    .YellowGiftIcon {
+        height: 48px;
+        width: 48px;
+        margin-top: 20%;
+        margin-left: 65%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .GiftText {
+        height: 5%;
+        width: 30%;
+        margin-left: 63.5%;
+        margin-top: 36%;
+        opacity: 0.8;
+        font-size: 10px;
+        color: whitesmoke;
+        position: absolute;
+    }
+
+    .YellowDot {
+        height: 24px;
+        width: 24px;
+        margin-left: 68%;
+        margin-top: 39.2%;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .YellowText {
+        height: 20%;
+        width: 30%;
+        margin-left: 65%;
+        margin-top: 32%;
+        opacity: 0.8;
+        color: whitesmoke;
+        position: absolute;
+    }
+
+    .TeammateInfo {
+        height: 70%;
+        width: 85%;
+        margin-top: 150%;
+        margin-left: 5%;
+        position: absolute;
+        background-color: white;
+    }
+
+    .HeadOfText {
+        height: 15%;
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 5%;
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        position: absolute;
+    }
+
+    .MainText {
+        margin-left: 10%;
+        margin-top: 15%;
+        font-size: 12px;
+        color: gray;
+        position: absolute;
+    }
+
+    .Delimiter {
+        width: 0.5%;
+        height: 90%;
+        background-color: gray;
+        position: absolute;
+        margin-left: 50%;
+        rotate: 90deg;
+        margin-top: 25%;
+        opacity: 0.2;
+    }
+
+    .ShareIcon {
+        height: 24px;
+        width: 24px;
+        margin-top: 60%;
+        margin-left: 45%;
+        position: absolute;
+    }
+
+    .FacebookLogo {
+        height: 16px;
+        width: 16px;
+        margin-top: 68%;
+        margin-left: 10%;
+        position: absolute;
+    }
+
+    .FacebookText {
+        font-size: 14px;
+        color: gray;
+        margin-top: 68%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    .TwitterLogo {
+        height: 16px;
+        width: 16px;
+        margin-top: 68%;
+        margin-left: 35%;
+        position: absolute;
+    }
+
+    .TwitterText {
+        font-size: 14px;
+        color: gray;
+        margin-top: 68%;
+        margin-left: 40%;
+        position: absolute;
+    }
+
+    .LinkedinLogo {
+        height: 16px;
+        width: 16px;
+        margin-top: 68%;
+        margin-left: 55%;
+        position: absolute;
+    }
+
+    .LinkedinText {
+        font-size: 14px;
+        color: gray;
+        margin-top: 68%;
+        margin-left: 60%;
+        position: absolute;
+    }
+
+    .InstagramLogo {
+        height: 16px;
+        width: 16px;
+        margin-top: 68%;
+        margin-left: 78%;
+        position: absolute;
+    }
+
+    .InstagramText {
+        font-size: 14px;
+        color: gray;
+        margin-top: 68%;
+        margin-left: 83%;
+        position: absolute;
+    }
+
+    .FirstTeammateLine {
+        height: 18%;
+        width: 6%;
+        rotate: 45deg;
+        margin-left: 18%;
+        margin-top: 40%;
+        background-color: white;
+        position: absolute;
+        animation: movement 1s linear;
+        visibility: hidden;
+    }
+
+    .SecondTeammateLine {
+        height: 18%;
+        width: 6%;
+        rotate: 45deg;
+        margin-left: 38.5%;
+        margin-top: 26.3%;
+        background-color: white;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .ThirdTeammateLine {
+        height: 18%;
+        width: 6%;
+        rotate: 45deg;
+        margin-left: 58.5%;
+        margin-top: 26.3%;
+        background-color: white;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .FourthTeammateLine {
+        height: 18%;
+        width: 6%;
+        rotate: 45deg;
+        margin-left: 78.5%;
+        margin-top: 26.3%;
+        background-color: white;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .HoveredPortfolio {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .HoveredPortfolio:hover {
+        animation: hoverPortfolio 1s forwards;
+    }
+
+    @keyframes hoverPortfolio {
+        to {
+            opacity: 1;
+        }
+    }
+
+    .LowerBlockPortfolio {
+        height: 30%;
+        width: 100%;
+        margin-top: 41.8%;
+        background-color: white;
+        position: absolute;
+    }
+
+    .LowerBlockPortfolioText {
+        margin-left: 35%;
+        margin-top: 8%;
+        color: black;
+        position: absolute;
+    }
+
+    .FirstLine {
+        height: 5%;
+        width: 25%;
+        background-color: red;
+        position: absolute;
+    }
+
+    .SecondLine {
+        height: 5%;
+        width: 25%;
+        margin-left: 25%;
+        background-color: green;
+        position: absolute;
+    }
+
+    .ThirdLine {
+        height: 5%;
+        width: 25%;
+        margin-left: 50%;
+        background-color: purple;
+        position: absolute;
+    }
+
+    .FourthLine {
+        height: 5%;
+        width: 25%;
+        margin-left: 75%;
+        background-color: orange;
+        position: absolute;
+    }
+
+    .CentralBlockPortfolio {
+        margin-left: 39%;
+        margin-top: 10%;
+        height: 35%;
+        width: 20%;
+        border-radius: 50%;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        position: absolute;
+    }
+
+    .HorizontalLine {
+        width: 90%;
+        height: 3%;
+        margin-left: 5%;
+        margin-top: 50%;
+        background-color: white;
+        position: absolute;
+    }
+
+    .VerticalLine {
+        width: 3%;
+        height: 90%;
+        margin-left: 50%;
+        margin-top: 5%;
+        background-color: white;
+        position: absolute;
+    }
+
+}
