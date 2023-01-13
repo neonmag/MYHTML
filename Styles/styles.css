@@ -4,6 +4,15 @@ body {
     height: 100%;
     cursor: url("../Cursor/cursor.svg"), pointer;
     width: 100%;
+    opacity: 0;
+    animation: op 1s forwards;
+}
+
+@keyframes op {
+    to
+    {
+        opacity: 1;
+    }
 }
 
 html
